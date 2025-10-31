@@ -10,8 +10,3 @@ def better_than_average(your_points):
         print("Your points better!")
     else:
         print("Your points worse!")
-
-
-better_than_average(7)
-
-better_than_average(10)
