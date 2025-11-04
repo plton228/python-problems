@@ -1,5 +1,6 @@
 import random
 import string
+
 while True:
     try:
         def number_velues():
@@ -9,6 +10,8 @@ while True:
                 return number_velues()
             else:
                 return number_of_values
+
+
         def number_password():
             number_of_passwords = int(input('скільки паролей ти хочеш?: '))
             if number_of_passwords < 0:
@@ -16,6 +19,8 @@ while True:
                 return number_password()
             else:
                 return number_of_passwords
+
+
         soft_or_hard = input('ти хочеш важкий пароль?(yes/no)?: ').lower() == 'yes'
         if soft_or_hard is True:
             soft = 3
